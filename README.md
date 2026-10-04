@@ -47,7 +47,7 @@ uvicorn app.main:app --host 127.0.0.1 --port 8000
 
 По умолчанию используется локальная SQLite-база `campus_helpdesk.db`. Для
 запуска с PostgreSQL:
-
+Прописывать уникальные значения при запуске
 ```bash
 export JWT_SECRET='replace-with-at-least-32-random-characters'
 export SEED_PASSWORD='replace-with-at-least-10-characters'
